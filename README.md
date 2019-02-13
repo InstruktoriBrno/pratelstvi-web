@@ -1,3 +1,9 @@
+# Instrukce pro Maaru
+
+Je třeba mít nainstalované npm. Pak naklonovat, poprvé zavolat `npm install` a
+pak zavolej `gulp dev` - otevře se ti prohlížeč, který se sám refreshuje.
+Upravuj dle libosti.
+
 # [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
