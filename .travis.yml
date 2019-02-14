@@ -1,11 +1,21 @@
 sudo:          false
 language:      node_js
+addons:
+  apt:
+    packages:
+    - sshpass
 node_js:
   - "node"
-install:       npm install
+install:
+  - npm install
 script:
-  - npm test
   - gulp
 cache:
   directories:
     - node_modules
+
+after_success:
+  - rsync -rtv --progress
+    --exclude=.git --exclude=node_modules
+    -e 'sshpass -p $PASSWORD ssh -p 8022 -o StrictHostKeyChecking=no'
+    . civilizace.instruktori.cz@admiral.instruktori.cz:/public_html/
