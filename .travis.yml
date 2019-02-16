@@ -3,7 +3,7 @@ language:      node_js
 addons:
   apt:
     packages:
-    - sshpass
+    - lftp
 node_js:
   - "node"
 install:
@@ -15,7 +15,7 @@ cache:
     - node_modules
 
 after_success:
-  - rsync -rtv --progress
-    --exclude=.git --exclude=node_modules
-    -e 'sshpass -p $PASSWORD ssh -p 8022 -o StrictHostKeyChecking=no'
-    . civilizace.instruktori.cz@admiral.instruktori.cz:/public_html/
+  - lftp sftp://admiral.instruktori.cz:8022
+    -u civilizace.instruktori.cz,$PASSWORD
+    -e 'mirror --reverse --verbose --delete --exclude=.git --exclude=node_modules . /public_html; exit'
+
