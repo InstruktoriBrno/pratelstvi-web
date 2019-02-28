@@ -5,6 +5,32 @@ body {
   height: 100%;
   color: white;
   background-color: #212529;
+  background: url("../img/main_bg.jpg") no-repeat top center fixed;
+  background-size: 200%;
+}
+
+@media (min-width: 576px) {
+  body {
+    background-size: 200%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-size: 150%;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-size: 120%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-size: cover;
+  }
 }
 
 html {
@@ -27,7 +53,7 @@ h6 {
 
 p {
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   margin: 0 0 25px;
 }
 
@@ -35,7 +61,7 @@ p {
   p {
     font-size: 20px;
     line-height: 1.6;
-    margin: 0 0 35px;
+    margin: 0 0 15px;
   }
 }
 
@@ -124,8 +150,6 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: #212529;
-  background: url("../img/intro-bg-janatomam.jpg") no-repeat bottom center scroll;
-  background-color: #1c1f20;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -150,7 +174,9 @@ a:focus, a:hover {
 .masthead .intro-body .intro-text {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20 0;
 }
 
 @media (min-width: 768px) {
@@ -162,14 +188,10 @@ a:focus, a:hover {
     font-size: 100px;
     margin: 0 0;
   }
-  .masthead .intro-body .intro-text {
-    font-size: 25px;
-    margin: 0 0;
-  }
 }
 
 .about-section {
-  background-color: #4a3a21;
+  background-color: rgba(74, 58, 33, 0.6);
 }
 
 .about-section p {
@@ -183,33 +205,6 @@ a:focus, a:hover {
 
 .application-section {
   background: #532901;
-}
-
-.motivation {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 200px 0;
-  background: url("../img/motivation.jpg") no-repeat bottom center scroll;
-  background-color: #212529;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.motivation .quote {
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-  color: black;
-  font-size: 35px;
-  padding: 50px;
-  text-align: left;
-}
-
-.motivation .quote .author {
-  font-size: 30px;
-  text-align: right;
 }
 
 .btn-circle {
@@ -240,12 +235,16 @@ a:focus, a:hover {
 
 .info-section {
   color: white;
-  background: url("../img/tunnel.jpg") no-repeat center center scroll;
-  background-color: #212529;
+  background-color: rgba(82, 10, 0, 0.4);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.info-section h4 {
+  margin-bottom: 5px;
+  margin-top: 30px;
 }
 
 .team-section {
@@ -321,6 +320,7 @@ ul.banner-social-buttons {
 }
 
 footer {
+  background: rgba(0, 0, 0, 0.4);
   padding: 50px 0;
 }
 
