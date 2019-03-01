@@ -70,9 +70,24 @@
                         chomáči vykvetl plamen. Můžeš křičet radostí, tvůj rod
                         má vlastní oheň. Co uděláš dál?</p>
                     </div>
-                    <div class="col-lg-12 mx-auto">
-                        <a href="#about" class="btn btn-circle js-scroll-trigger">
-                            <i class="fa fa-angle-double-down animated"></i>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mx-auto">
+                        <a href="#about" class="btn js-scroll-trigger"
+                            onclick="$('#maso').removeClass('hidden'); $('#mamut, #ostepy').addClass('hidden');">
+                            Opečeš si maso?
+                        </a>
+                    </div>
+                    <div class="col-md-4 mx-auto">
+                        <a href="#about" class="btn js-scroll-trigger"
+                            onclick="$('#ostepy').removeClass('hidden'); $('#maso, #mamut').addClass('hidden');">
+                            Opálíš si hrot oštěpu?
+                        </a>
+                    </div>
+                    <div class="col-md-4 mx-auto">
+                        <a href="#about" class="btn js-scroll-trigger"
+                            onclick="$('#mamut').removeClass('hidden'); $('#maso, #ostepy').addClass('hidden');" >
+                            Nakreslíš uhlem mamuta?
                         </a>
                     </div>
                 </div>
@@ -82,6 +97,11 @@
 
     <section id="about" class="about-section content-section">
         <div class="container">
+            <div class="row">
+                <img src="img/mamut.png" id="mamut" class="user-image">
+                <img src="img/maso.png" id="maso" class="user-image hidden">
+                <img src="img/ostepy.png" id="ostepy" class="user-image hidden">
+            </div>
             <div class="row">
                 <div class="col-lg-12 mx-auto">
                     <p>Příběh civilizace je víkendová akce, kde se svým týmem
@@ -175,22 +195,13 @@
             <div class="row-centered text-center org d-flex align-items-start flex-wrap">
                 <div class="col-lg-6 col-centered">
                     <img class="rounded-circle" src="img/darwin.jpg" alt="">
-                    <h3>Honza "Darwin" Böhm</h3>
-                    <h5>Na co mám?</h5>
-                    <p>Mám na řešení (svých i cizích) problémů a úkolů. Dost často metodou out of the box, takže se kýžený a skutečný výsledek značně rozchází...
-                    </p>
-                    <h5>Na co jsem neměl?</h5>
-                    <p>Včera jsem šel na pivo, dal si standardní čtyři kousky a hle, pan vrchní chce po mně zaplatit. Vytáhnu svou modrou VISA kartičku, kterou řeším své běžné existenční problémy, jenže ejhle - pan vrchní se neusmívá, neb platbu kartou neakceptují.
-                        Zmocnila se mě hrůza, kde že to seženu v tuto pozdní večerní (až noční) hodinu hotovost alespoň s panem Komenským. A v tu chvíli, po prohledání všech kapes a zákoutí peněženky jsem na stůl vyskládal 2 stravenky v hodnotě 70 Kč,
-                        euro dvacet centů a 7 Kč, protože nejsem buran, co nedává dýško.</p>
+                    <h3>Jiří "Maara" Marek</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer tempor. Nam sed tellus id magna elementum tincidunt.</p>
                 </div>
                 <div class="col-lg-6 col-centered">
                     <img class="rounded-circle" src="img/paja.jpg" alt="">
-                    <h3>Pája Havlíčková</h3>
-                    <h5>Na co mám?</h5>
-                    <p>Často mám pocit, že vůbec na nic. Nakonec ale většinou (s úsilím a po dostatečné dávce prokrastinace) zvládnu, co je potřeba. </p>
-                    <h5>Na co jsem neměla?</h5>
-                    <p>To by byl nekonečný seznam :-) . Naposledy jsem si myslela, že nemám na to, mluvit před desítkami lidí na konferenci.. a nakonec to nebylo tak zlé.</p>
+                    <h3>Filip "Jupíčert" Kalčík</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer tempor. Nam sed tellus id magna elementum tincidunt.</p>>
                 </div>
             </div>
 
@@ -198,42 +209,25 @@
                 <div class="col-lg-6 col-centered">
                     <img class="rounded-circle" src="img/honza.jpg" alt="">
                     <h3>Honza Mrázek</h3>
-                    <h5>Na co mám?</h5>
-                    <p>Bláhově si myslím, že mám na cokoliv, co si umanu. Na(ne)štěstí mě svět ještě nestihl předsvědčit o opaku. Anebo mám jenom malé cíle? Anebo ne?</p>
-                    <h5>Na co jsem neměl?</h5>
-                    <p>Ještě před pár dny jsem neměl na to pracovně vypnout a dát si oraz. Ale povedlo se mi to. A možná proto jsme tento web vypustili později než bylo původně v plánu...</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer tempor. Nam sed tellus id magna elementum tincidunt.</p>
                 </div>
                 <div class="col-lg-6 col-centered">
                     <img class="rounded-circle" src="img/silva.jpg" alt="">
-                    <h3>Silva Pučálková</h3>
-                    <h5>Na co mám?</h5>
-                    <p>Mám na to, upředňostňovat hodnotu okamžiku před hmotou… Naštěstí v tom nejsem sama a tak díky tomu, Vám můžeme s kamarády dopřát trochu těch Vašich okamžiků mnoho zážitků a pár vzpomínek...
-                    </p>
-                    <h5>Na co jsem neměla?</h5>
-                    <p>Nikdy dřív jsem neměla na to, abych povídala vtipy, doběhla šalinu, mluvila s někým cizí řečí za střízliva, stoupla si před publikum a povídala… A je krásné sem tam se ohlédnout zpět a zjišťovat, jak je to všechno proměnlivé...</p>
+                    <h3>Eva "Efka" Pavloušková</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer tempor. Nam sed tellus id magna elementum tincidunt.</p>
                 </div>
             </div>
 
             <div class="row-centered text-center org d-flex align-items-start flex-wrap">
                 <div class="col-lg-6 col-centered">
                     <img class="rounded-circle" src="img/kulda.jpg" alt="">
-                    <h3>Martin "Kulda" Kulich</h3>
-                    <h5>Na co mám?</h5>
-                    <p>Mám s celým týmem na to, abychom Tě celý víkend překvapovali, na co všechno máš Ty!</p>
-                    <h5>Na co jsem neměl?</h5>
-                    <p>Když mě maminka coby malé robátko hlásila do lidušky do hodin klavíru, pan učitel si chtěl malého žáčka prověřit. Nejprve zadal rytmické cvičení, u toho uznale pokýval hlavou; pak chtěl slyšet zpěv, načež maminku v rámci zachování
-                        světového míru úpěnlivě prosil, aby mi do ruky žádný hudební nástroj nesvěřovala. Jak to dopadlo? Nechte se překvapit! :) </p>
+                    <h3>Vítězslav "Abbe" Mek</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer tempor. Nam sed tellus id magna elementum tincidunt.</p>
                 </div>
                 <div class="col-lg-6 col-centered">
                     <img class="rounded-circle" src="img/eliska.jpg" alt="">
-                    <h3>Eliška Prokešová</h3>
-                    <h5>Na co mám?</h5>
-                    <p>Mám na to radovat se z maličkostí, umět blbnout a pobavit či rozveselit ostatní. Mám na to znakovat s neslyšícími, tančit a také jít do nových věcí, protože když to nezkusím, nemůžu vědět, jaké to je. Ráda bych o sobě jednou řekla,
-                        že mám na to mluvit plynule anglicky.</p>
-                    <h5>Na co jsem neměla?</h5>
-                    <p>Na vyzkoušení zimního táboření, jízdu na seakayaku, běžkování, brnkání na kytaru, vedení větších pracovních projektů či na to být dříve součástí týmu mistrů ČR ... Jsem ráda, že tyto představy mi realita vyvrátila a jsem zvědavá na
-                        příští objevování toho, "na co mám".
-                    </p>
+                    <h3>Martina "Tinka" Krasnayová</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer tempor. Nam sed tellus id magna elementum tincidunt.</p>
                 </div>
             </div>
         </div>
@@ -284,7 +278,7 @@
     <script>
         (function(){
             var parallax = document.querySelectorAll("body"),
-                speed = -0.2;
+                speed = -0.1;
 
             window.onscroll = function(){
             [].slice.call(parallax).forEach(function(el,i){
