@@ -1,6 +1,6 @@
 # Příběh civilizace 2019 web
 
-Web pro víkendovku [Příběh civilizace]https://civilizace.instruktori.cz/) organizovanou pod hlavičkou [Instruktorů Brno](https://www.instruktori.cz/).
+Web pro víkendovku [Příběh civilizace](https://civilizace.instruktori.cz/) organizovanou pod hlavičkou [Instruktorů Brno](https://www.instruktori.cz/).
 
 Web je postaven na šabloně [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) od [Start Bootstrap](http://startbootstrap.com/), původně forknut z [jejich repozitáře](https://github.com/BlackrockDigital/startbootstrap-grayscale).
 
