@@ -4,11 +4,15 @@ Web pro víkendovku [Příběh civilizace](https://civilizace.instruktori.cz/) o
 
 Web je postaven na šabloně [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) od [Start Bootstrap](http://startbootstrap.com/), původně forknut z [jejich repozitáře](https://github.com/BlackrockDigital/startbootstrap-grayscale).
 
-## Instrukce pro Maaru
+## Jak upravovat web?
 
 Je třeba mít nainstalované npm. Pak naklonovat, poprvé zavolat `npm install` a
-pak zavolej `gulp dev` - otevře se ti prohlížeč, který se sám refreshuje.
+pak zavolat `gulp dev` - otevře se prohlížeč, který se sám refreshuje.
 Upravuj dle libosti.
+
+## Jak přidat ročníky?
+
+Zedituj soubor `years.json`, který je ve formátu "Název -> Odkaz"
 
 # [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 
