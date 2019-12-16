@@ -5,7 +5,7 @@ addons:
     packages:
     - lftp
 node_js:
-  - "node"
+  - 10
 install:
   - npm install
 script:
