@@ -378,3 +378,12 @@ img::-moz-selection {
   /* inline-block space fix */
   margin-right: -4px;
 }
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #68523d;
+}
