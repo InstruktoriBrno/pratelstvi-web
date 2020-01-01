@@ -389,3 +389,15 @@ img::-moz-selection {
 .dropdown-item:hover {
   background-color: #68523d;
 }
+
+.row-info {
+  display:flex;
+}
+
+.column-info {
+  flex: 1;
+}
+
+.column-mamut {
+  flex: 0;
+}
