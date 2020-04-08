@@ -7,7 +7,7 @@ Web je postaven na šabloně [Grayscale](http://startbootstrap.com/template-over
 ## Jak upravovat web?
 
 Je třeba mít nainstalované npm. Pak naklonovat, poprvé zavolat `npm install` a
-pak zavolat `gulp dev` - otevře se prohlížeč, který se sám refreshuje.
+pak zavolat `gulp watch` - otevře se prohlížeč, který se sám refreshuje.
 Upravuj dle libosti.
 
 ## Jak přidat ročníky?
