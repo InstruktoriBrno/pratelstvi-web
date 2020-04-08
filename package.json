@@ -31,15 +31,19 @@
     "jquery": "3.4.0",
     "jquery-parallax.js": "^1.5.0",
     "jquery.easing": "^1.4.1",
-    "popper.js": "^1.14.3"
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "3.9.4",
-    "gulp-header": "2.0.5",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "4.0.1",
-    "gulp-uglify": "3.0.0"
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "7.0.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.9",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0"
   }
 }
