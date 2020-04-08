@@ -6,4 +6,4 @@ bower_components
 # Build files
 vendor
 css
-js
+js/*.min.js
