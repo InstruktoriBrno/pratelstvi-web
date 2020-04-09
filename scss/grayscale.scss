@@ -195,6 +195,28 @@ a {
   }
 }
 
+.covid {
+  display: table;
+
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  padding-bottom: 40px;
+
+  text-align: center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .brand-background {
+    padding: 25px;
+    background: rgba(255, 50, 100, 0.3);
+  }
+
+}
+
 .about-section {
   background-color: rgba(#4a3a21, 0.6);
   p {
