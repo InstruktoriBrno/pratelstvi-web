@@ -10,6 +10,8 @@ cache:
   directories:
     - node_modules
 
+before_deploy:
+    - sed -i '/# Build files/q;p' .gitignore
 deploy:
   provider: pages
   skip_cleanup: true
