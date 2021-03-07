@@ -15,7 +15,7 @@ before_deploy:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: "F8lTxOkzRpg0pJFxtJHjiFtsDh6bi35+2RuSdWO+RA6plR5JOGWl4V1h6Pvh11OqzihpGlUYLxwhO/IlUZS4WylYgUPM+aOHJSHlHX3Lr9oQWHh7raeV2ZwYmZsEXgorzUxyXVc3es14JX5OnJ9pyY9QVN+8FMNfp8r+RDrph1Z00I05yaiz4zJ1PtQK53VWA8SqlDIDxsDEsoTMA544ZIacE6gq7Y3p2yadgZ4ZcTHcurXlsX94c2OjUVj5vaZg2OsKzsJGjTTkEvau0uGbQIz64pKbSmlcA4kStA42b8/U4aQl5TSmWVXddD1J3YxI3kB6S4HU0+HPcNyIL/Vr3a+DA3lnd1h04LcNVm7uY4EwJWAwjmstqxk4NDO0j+a5q/SFpdXwkR6XCB0rOKwHcnpi+4GeJNqXBepF+62wk/JJTuoapDUXwS5N57B+VDBpiyTGDM77BrFUnUmj7i0iLuKnFp1/v6qzkhHnmtpkmCVcJia/KkuwDy0oY52WlJvetjQb8McYSuEk9k0XNjUpsr6qfBe336oH/NgV7R9kSG4VOTgLDTQIBSVn367tkU22sCovT11lq4gLqtKjP6yVE2PZjMu7nB0e0Kwx6x/iXB9hzBxtgEvipCMs0ojMgDBjcQ+A5vWKGn/vJ+F9XJl8DbjUh1LnV7O405vWtDc07/k="
+  github_token: $TRAVIS_TOKEN
   keep_history: false
   on:
     branch: master
