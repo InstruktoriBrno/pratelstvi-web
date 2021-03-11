@@ -444,18 +444,12 @@ img::-moz-selection {
 }
 
 .bg-img-provaz {
-  background: url('../img/bg_provaz.jpg') no-repeat bottom center scroll;
+  background: url('../img/bg_provaz.jpg') no-repeat center center scroll;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
 }
 
 .bg-img-lidi {
-  background: url('../img/kruh_lidi.jpg') no-repeat bottom center scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background: url('../img/kruh_lidi.jpg') no-repeat center center scroll;
   background-size: cover;
   height: 50%;
 }
