@@ -227,10 +227,22 @@ a {
     font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   }
+  h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
 }
 
 .application-section {
   background-color: rgba(#4a3a21, 0.6);
+  .brand-background {
+    padding: 25px;
+    padding-bottom: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
 }
 
 .btn-circle {
@@ -279,6 +291,9 @@ a {
   background-color: rgba(#520a00, 0.4);
   p {
     font-size: 16px;
+  }
+  h2 {
+    margin-bottom: 0px;
   }
 }
 
@@ -346,15 +361,19 @@ ul.banner-social-buttons {
   img {
     width: 100%;
     max-width: 300px;
-    margin: 35px 0;
+    margin-bottom: 15px;
+    margin-top: 0px;
     border: solid 3px white;
   }
   h3 {
-    min-height: 60px;
     margin: 0;
+    min-height: 60px;
+    margin-bottom: 5px;
+    margin-top: 40px;
   }
   h5 {
-    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 30px;
   }
   p {
     text-align: justify;
@@ -422,4 +441,21 @@ img::-moz-selection {
 
 .column-mamut {
   flex: 0;
+}
+
+.bg-img-provaz {
+  background: url('../img/bg_provaz.jpg') no-repeat bottom center scroll;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.bg-img-lidi {
+  background: url('../img/kruh_lidi.jpg') no-repeat bottom center scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 50%;
 }
