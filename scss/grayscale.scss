@@ -297,6 +297,24 @@ a {
   }
 }
 
+.contact-section {
+  background-color: rgba(#534f4e, 0.2);
+  p {
+    font-size: 16px;
+  }
+  h2 {
+    margin-bottom: 0px;
+  }
+  a {
+    color: darken($primary, 25%);
+    &:hover {
+      text-decoration: none;
+  
+      color: darken($primary, 40%);
+    }
+  }
+}
+
 .btn {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -454,13 +472,49 @@ img::-moz-selection {
   height: 50%;
 }
 
+.bg-img-prihlaska-tym {
+  background: url('../img/prihlaska-tym.jpg') no-repeat center center scroll;
+  background-size: cover;
+  height: 75%;
+}
+
+.bg-img-tym-kontakt {
+  background: url('../img/tym-kontakt.jpg') no-repeat center center scroll;
+  background-size: cover;
+  height: 50%;
+}
+
 .komiks {
   width: 33%;
-  height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   min-width: 300px;
   max-width: 400px;
+}
+
+.komiks-wide {
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.komiks-max {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  min-width: 300px;
+}
+
+.add-top-margin {
+  margin-top: 95px;
 }
